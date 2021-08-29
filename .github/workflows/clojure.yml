@@ -12,7 +12,7 @@ jobs:
     - uses: actions/checkout@v2
     
     - name: Install rlwrap
-      run: apt install rlwrap
+      run: sudo apt install rlwrap
     
     - name: Prepare java
       uses: actions/setup-java@v2
