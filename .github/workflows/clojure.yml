@@ -11,6 +11,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     
+    - name: Install rlwrap
+      run: apt install rlwrap
+    
     - name: Prepare java
       uses: actions/setup-java@v2
       with:
